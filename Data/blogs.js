@@ -7,7 +7,7 @@ const blogs = [
 	},
 	{
 		date: '01 Jan 2021',
-		topic: '10 things-to-do, before you publish your CRA on the web',
+		topic: 'Definitive Guide for Creating Carousel in React.',
 		desc: `In this article, we will focus on creating Carousels in our website, add Active Classes to them using React Hooks. overall increasing our Website's UX Design!`,
 		link: `https://prakharvarshney.hashnode.dev/definitive-guide-for-creating-carousel-in-react`,
 	},
