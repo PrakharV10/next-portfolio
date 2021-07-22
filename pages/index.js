@@ -1,11 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
 import { About, Blogs, Footer, ProjectOne, ProjectThree, ProjectTwo, Sidebar } from '../Components';
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>Prakhar Varshney</title>
 				<meta name='description' content='Get to know about me!' />
