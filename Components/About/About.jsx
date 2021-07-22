@@ -1,10 +1,14 @@
 import React from 'react';
+import Image from 'next/image';
+import Logo from '../../Assets/Images/PVLogo.jpeg';
 
 function About() {
 	return (
 		<div className='bg-gray-700 flex flex-col justify-between h-screen w-100 p-7 lg:p-11 text-white'>
 			<div className='font-satisfy'>About - My Journey</div>
-			<div className='w-40 h-40 m-auto mt-4 rounded-full bg-gray-600 lg:w-60 lg:h-60'></div>
+			<div className='w-40 h-40 m-auto mt-4 rounded-full bg-gray-600 lg:w-60 lg:h-60 overflow-hidden'>
+				<Image src={Logo} alt='My Brand Logo' />
+			</div>
 			<div className='font-karla mt-6 lg:mt-12 lg:text-lg font-light'>
 				I started my web development journey in November, 2020. Since then I have learnt new
 				technologies and acquired Skills like{' '}

@@ -7,21 +7,40 @@ function Sidebar() {
 			<div className='font-satisfy'>Prakhar</div>
 			<div className='lg:w-11/12'>
 				<div className='font-kanit text-3xl lg:text-4xl'>Hello, I’m Prakhar Varshney</div>
-				<div className='font-poppins mt-5 font-light lg:text-lg '>
+				<div className='font-poppins mt-5 mb-6 font-light lg:text-lg '>
 					A Web Developer passionate about publishing new and useful products, enhancing
 					the internet experience for the users.
 				</div>
-				<button className='px-5 py-3 mt-5 font-poppins text-sm rounded-sm bg-blue-600'>
+				<a
+					href='mailto:prakhar.10.varshney@gmail.com'
+					className='px-5 py-3 font-poppins text-sm rounded-sm bg-blue-600'
+				>
 					Contact Me
-				</button>
+				</a>
 			</div>
 			<div className='font-satisfy'>
 				Social Handles :
-				<div className='flex justify-between w-36 cursor-pointer mt-2'>
-					<Twitter />
-					<Github />
-					<Linkedin />
-					<BlogSite />
+				<div className='flex justify-between w-36 mt-2'>
+					<a href='https://twitter.com/Prakhar10V' target='_blank' rel='noreferrer'>
+						<Twitter />
+					</a>
+					<a href='https://github.com/PrakharV10' target='_blank' rel='noreferrer'>
+						<Github />
+					</a>
+					<a
+						href='https://www.linkedin.com/in/prakhar-varshney-6b3a92181/'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<Linkedin />
+					</a>
+					<a
+						href='https://prakharvarshney.hashnode.dev/'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<BlogSite />
+					</a>
 				</div>
 			</div>
 		</div>

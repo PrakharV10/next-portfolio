@@ -1,11 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import About from '../Components/About/About';
-import ProjectOne from '../Components/ProjectOne/ProjectOne';
-import ProjectThree from '../Components/ProjectThree/ProjectThree';
-import ProjectTwo from '../Components/ProjectTwo/ProjectTwo';
-import Sidebar from '../Components/Sidebar/Sidebar';
 import styles from '../styles/Home.module.css';
+import { About, Blogs, Footer, ProjectOne, ProjectThree, ProjectTwo, Sidebar } from '../Components';
 
 export default function Home() {
 	return (
@@ -23,6 +19,8 @@ export default function Home() {
 					<ProjectOne />
 					<ProjectTwo />
 					<ProjectThree />
+					<Blogs />
+					<Footer />
 				</div>
 			</main>
 		</div>
