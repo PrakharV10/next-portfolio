@@ -5,7 +5,7 @@ import Shots from '../../Assets/Images/ShotMock.png';
 
 function ProjectOne() {
 	return (
-		<div className='bg-blue-700 flex flex-col justify-between w-100 h-screen p-7 lg:p-11 text-white'>
+		<div className='bg-blue-700 flex flex-col justify-between w-100 h-screen max-h-full p-7 lg:p-11 text-white'>
 			<div className='font-satisfy'>Project 1 - Social Media Application</div>
 			<a
 				href='https://sparrow-shots.netlify.app'

@@ -3,7 +3,7 @@ import blogs from '../../Data/blogs';
 
 function Blogs() {
 	return (
-		<div className='bg-purple-100 flex flex-col justify-between w-100 h-full p-7 md:h-screen lg:p-11'>
+		<div className='bg-purple-100 flex flex-col justify-between w-100 h-full max-h-full p-7 md:h-screen md:max-h-full lg:p-11'>
 			<div className='font-satisfy mb-6'>Blogs</div>
 
 			<div>
