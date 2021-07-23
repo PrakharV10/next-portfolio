@@ -4,7 +4,7 @@ import Logo from '../../Assets/Images/PVLogo.jpeg';
 
 function About() {
 	return (
-		<div className='bg-gray-700 flex flex-col justify-between min-h-screen h-full w-100 p-7 lg:p-11 text-white'>
+		<div className='bg-gray-700 flex flex-col justify-between min-h-screen h-content w-100 p-7 lg:p-11 text-white'>
 			<div className='font-satisfy'>About - My Journey</div>
 			<div className='w-40 h-40 m-auto mt-4 rounded-full bg-gray-600 lg:w-60 lg:h-60 overflow-hidden'>
 				<Image src={Logo} alt='My Brand Logo' />

@@ -19,6 +19,9 @@ module.exports = {
 				poppins: ['Poppins', 'sans-serif'],
 				karla: ['Karla', 'sans-serif'],
 			},
+			height: {
+				content: 'max-content',
+			},
 		},
 	},
 	variants: {
