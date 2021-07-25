@@ -6,7 +6,18 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>Prakhar Varshney</title>
-				<meta name='description' content='Get to know about me!' />
+				<meta
+					name='description'
+					content='A Web Developer passionate about publishing new and useful products, enhancing the internet experience for the users.'
+				/>
+				<link rel='icon' href='/favicon.ico' />
+				<meta property='og:title' content='Prakhar Varshney' />
+				<meta
+					property='og:description'
+					content='A Web Developer passionate about publishing new and useful products, enhancing the internet experience for the users.'
+				/>
+				<meta property='og:url' content='https://prakharvarshney.tech/' />
+				<meta property='og:type' content='website' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
