@@ -23,7 +23,7 @@ export default function Home() {
 
 			<main className='w-screen h-screen md:flex'>
 				<Sidebar />
-				<div className='flex-1 max-h-screen md:overflow-scroll'>
+				<div className='flex-1 max-h-screen md:overflow-auto'>
 					<About />
 					<ProjectOne />
 					<ProjectTwo />
